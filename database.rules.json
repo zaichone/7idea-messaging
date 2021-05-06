@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "line": {
+        "1655547650":{
+          ".indexOn":["message/timestamp", "replytokens/timestamp"],
+        }
+    },
+    ".read": "now < 1621530000000",  // 2021-5-21
+    ".write": "now < 1621530000000",  // 2021-5-21
+  }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+:root{
+  --primary: #0092d2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+}
+
+/* base styles & title */
+body{  
+  color: var(--secondary);
+}
+a{ text-decoration:none; }
+
+header a{
+  color:white;
+}
+
+#chat-box{
+  max-width:80%;
+  margin:1vh auto;
+}
+
+.message{ width:100%; display:flex; }
+
+.message-box{
+  .admin{
+    text-align:right!important;
+    span{
+      display:inline-block;
+      background:#3f51b5;    
+      color:#fff;  
+      
+      padding:5px 20px;
+      border-radius:30px;
+    }
+    .time{ p{font-size:10px!important;} }
+  }
+  .user{
+    text-align:left!important;
+    span{
+      display:inline-block;      
+      background-color: rgba(0, 0, 0, 0.04)!important;
+      color:var(--secondary);
+      padding:5px 20px;
+      border-radius:30px;
+    }
+    .time{ p{font-size:10px!important;} }
+  }
+}
+.listClients{
+  max-height:65vh;
+  overflow:auto;
+}
+
+.client-name{
+  
+    color:var(--secondary);
+  
+}
+.current-active{
+  background-color: rgba(0, 0, 0, 0.04)!important;
+}
